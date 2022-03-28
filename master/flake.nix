@@ -11,7 +11,6 @@
   inputs.src-picohttpparser-master.ref   = "refs/heads/master";
   inputs.src-picohttpparser-master.owner = "philip-wernersbach";
   inputs.src-picohttpparser-master.repo  = "nim-picohttpparser";
-  inputs.src-picohttpparser-master.dir   = "";
   inputs.src-picohttpparser-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
